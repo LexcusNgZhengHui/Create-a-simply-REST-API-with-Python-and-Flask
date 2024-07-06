@@ -6,14 +6,14 @@ This application should allow to add a product, retrieve the products, retrieve 
 All these operations will be achieved through the REST API endpoints in this Flask server.\
 
 Lastly will use cURL and POSTMAN to test the implemented endpoints.\
-
+\\
 1)Set-up : Create application using terminal first
 -Open a terminal window by using the menu in the editor: Terminal > New Terminal.\
 -Change to your project folder, if you are not in the project folder already. example command: cd /home/project \
 - clone the Git repository that contains the starter code needed : [ ! -d 'jmgdo-microservices' ] && git clone https://github.com/ibm-developer-skills-network/jmgdo-microservices.git \
 - Change to the directory jmgdo-microservices/CRUD to start working on the lab. : cd jmgdo-microservices/CRUD \
 - Run the following command on the terminal to install the packages that are required. : python3 -m pip install flask flask_cors \
-
+\\
 2) Understand the server application
 - In the Files Explorer open the jmgdo-microservices/CRUD folder and view products.py. # PLease noted that in this directory I just put the product.py file only,if require the wholeprogram file please goto step 1 to cline the Git repository\
 - Need to import the packages required to create REST APIs with Flask in the product.py file :
@@ -33,7 +33,7 @@ Lastly will use cURL and POSTMAN to test the implemented endpoints.\
   -Update a product by its id - PUT Request Method
   -Delete a product by its id - DELETE Request Method
   # You may find this in the product.py file
-
+\\
 3) Run and test the server with cURL
 -In the terminal, run the python server using the following command.
   python3 products.py
