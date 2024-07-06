@@ -8,7 +8,7 @@ This is a simply Web Application for REST API program using Python and Flask\
 
 4) The reason why using port 5000 is due to the python file we did't not specify the port , When no port is specified, starts at default port 5000\
 
-Example Command have used in the terminal of visual studio code:\
+Example Command and output have used in the terminal of visual studio code:\
 theia@theia-ngzhenghuinz:/home/project$ touch /home/project/server.py\
 theia@theia-ngzhenghuinz:/home/project$ python3 -m pip install flask\
 Defaulting to user installation because normal site-packages is not writeable\
