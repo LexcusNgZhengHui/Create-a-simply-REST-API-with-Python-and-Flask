@@ -54,3 +54,19 @@ Lastly will use cURL and POSTMAN to test the implemented endpoints.\
 
 You may try it throught the Postman Software
 
+Example code used in Postman
+-Paste the URL that you have copied into the address bar. Change the request type to POST. To send input as JSON, choose raw->body->JSON.
+-Enter the following JSON object and click the Send button. This will add the product to your previous list of products.
+  {
+      "id":146,
+      "name":"Laptop Bag",
+      "price":45.00
+  }
+-Verify the list of products to ensure that the request has gone through and the product is added. Change the request type to GET and remove the JSON object from the request body. Click Send and observe the output in the response window
+-Test the PUT endpoint to update product details by changing the price of the item with id 146 to 42.00. Set the request type to PUT and add the product id to the end of the URL and add the value to be changed as a JSON body and click Send.
+  {
+      "price":42.00
+  }
+-Verify the product with id 146 to ensure that the request has gone through and the product is updated. Change the request type to GET and remove the JSON object from the request body. Click Send and observe the output in the response window.
+-Go to products/144 endpoint. Set the request type to `PUT` and add the product id to the end of the URL and add the value to be changed as a JSON body and click `Send`.
+-Go to products/142 endpoint. Set the request type to `DELETE` and click `Send`.
